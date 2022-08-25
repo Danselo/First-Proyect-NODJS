@@ -1,0 +1,23 @@
+-first is create package.json (npm init -y)
+-install principal modules (
+    PRODUCTION MODULES: 
+   - npm i express
+    -npm i morgan(view in console the peticions )
+    -npm i ejs (generate pages in html(extends html with programing logic))
+
+    DEVELOPMENT MODULES:
+    -npm i nodemon -D
+    use local form:
+    npx nodemon src/index.js
+    easy form- create your script in package.json with the name
+        "dev" : "nodemon src/index.js"
+    ejecuted with : npm run dev
+)
+-create carpet src and file index.js
+
+WRITE IN PACKAGE.JSON 
+  "type": "module",
+for updated sintax
+
+
+---------CREATE ViEWS FOLDER AND ADD PAGES FOR THE FRONT
